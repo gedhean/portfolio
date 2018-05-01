@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedhean/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Gêdhean Alves Vieira <gedhean1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gedhean/portfolio/issues"
+  },
+  "homepage": "https://github.com/gedhean/portfolio#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1"
+  }
+}
