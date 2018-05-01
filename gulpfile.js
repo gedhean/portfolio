@@ -60,11 +60,8 @@ gulp.task('babel', function() {
 
 // Task 'watch' - run with command 'gulp watch'
 gulp.task('watch', function() {
-  gulp.watch(
-    [sass_files, './src/js/*.js'],
-    ['sassdev' /* , 'sassprod' */, 'babel']
-  );
+  gulp.watch([sass_files, './src/js/*.js'], ['sassdev', 'sassprod', 'babel']);
 });
 
 // Default task - run with command 'gulp'
-gulp.task('default', ['sassdev' /* , 'sassprod' */, 'babel', 'watch']);
+gulp.task('default', ['sassdev', 'sassprod', 'babel', 'watch']);

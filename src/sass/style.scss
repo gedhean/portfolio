@@ -1,10 +1,26 @@
-body {
-  padding: 0px;
-  box-shadow: 1px;
-  transform: rotate(90deg);
-}
+.grid-container {
+  display: grid;
+  grid-template-columns: [sidbar] 25% [content] auto;
+  grid-template-rows: [header] 60px [main] auto;
 
-p {
-  color: black;
-  width: 10%;
+  grid-template-areas:
+    'sidebar header'
+    'sidebar main';
+
+  height: 100%;
+
+  div.grid-sidebar {
+    background-color: aqua;
+    grid-area: sidebar;
+  }
+
+  div.grid-header {
+    background-color: bisque;
+    grid-area: header;
+  }
+
+  div.grid-main {
+    background-color: burlywood;
+    grid-area: main;
+  }
 }
