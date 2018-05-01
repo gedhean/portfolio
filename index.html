@@ -10,6 +10,7 @@
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="src/css/style.min.css">
@@ -24,10 +25,21 @@
 
     <!-- Add your site or application content here -->
     <div class="grid-container">
-        <div class="grid-sidebar">Sidebar</div>
-        <div class="grid-header">Header</div>
-        <div class="grid-main">Main</div>
+        <div class="grid-item grid-sidebar">
+            <div class="logo-container">
+                <img src="src/img/_logo100.png" alt="Logo Gedhean" class="logo">
+            </div>
+        </div>
+        <div class="grid-item grid-main">
+            <header class="header">
+                <h1>Hello world!</h1>
+            </header>
+        </div>
     </div>
+
+    <!--<div>Logo made with <a href="https://
+        www.designevo.com/" title="Free Online Logo Maker">DesignEvo</a>
+    </div>-->
 
     <!-- JavaScript goes here -->
     <script src="src/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -38,6 +50,7 @@
     </script>
     <script src="src/js/plugins.js"></script>
     <script src="src/js/js-transpiled/main.js"></script>
+
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
