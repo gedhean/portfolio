@@ -1,0 +1,10 @@
+body {
+  padding: 0px;
+  box-shadow: 1px;
+  transform: rotate(90deg);
+}
+
+p {
+  color: black;
+  width: 10%;
+}
