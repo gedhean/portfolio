@@ -1,0 +1,38 @@
+h1 {
+  font-weight: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: [sidbar] 25% [main] auto;
+  grid-template-areas: 'sidebar main';
+  grid-gap: 0px;
+  height: 100%;
+}
+
+.grid-container div.grid-sidebar {
+  z-index: 1;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+  background-color: black;
+  grid-area: sidebar;
+  color: white;
+}
+
+.grid-container div.grid-sidebar div.logo-container {
+  text-align: center;
+}
+
+.grid-container div.grid-sidebar div.logo-container img.logo {
+  width: 25%;
+  margin-top: 5%;
+}
+
+.grid-container div.grid-main {
+  background-color: #f0f0f0;
+  grid-area: main;
+}
+
+.grid-container div.grid-main header.header {
+  padding-left: 20px;
+}
