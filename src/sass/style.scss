@@ -3,10 +3,25 @@ $white_gray: #f0f0f0;
 
 $second-color: #7872ae;
 $light-bkg: #fcdbec;
-$fonte: 'Julios Sans One', sans-serif;
 
 h1 {
+  font-family: 'Julius Sans One', 'Helvetica Nue', Arial, sans-serif;
   font-weight: normal;
+}
+
+h1::after {
+  content: '';
+  height: 2px;
+  width: 600px;
+  background-color: black;
+  display: block;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .grid-container {
@@ -36,10 +51,12 @@ h1 {
 
   div.grid-main {
     background-color: $white_gray;
+    padding-left: 50px;
     grid-area: main;
 
-    header.header {
-      padding-left: 20px;
+    h1 {
+      font-weight: normal;
+      letter-spacing: 7px;
     }
   }
 }

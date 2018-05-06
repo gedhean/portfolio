@@ -1,6 +1,8 @@
 # documentation
 doc
 
+.cache
+
 # Logs
 logs
 *.log

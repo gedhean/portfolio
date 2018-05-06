@@ -1,5 +1,21 @@
 h1 {
+  font-family: 'Julius Sans One', 'Helvetica Nue', Arial, sans-serif;
   font-weight: normal;
+}
+
+h1::after {
+  content: '';
+  height: 2px;
+  width: 600px;
+  background-color: black;
+  display: block;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  text-decoration: none;
 }
 
 .grid-container {
@@ -30,9 +46,11 @@ h1 {
 
 .grid-container div.grid-main {
   background-color: #f0f0f0;
+  padding-left: 50px;
   grid-area: main;
 }
 
-.grid-container div.grid-main header.header {
-  padding-left: 20px;
+.grid-container div.grid-main h1 {
+  font-weight: normal;
+  letter-spacing: 7px;
 }
