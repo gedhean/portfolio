@@ -1,9 +1,7 @@
 $primary-color: #3b3a55;
 $white_gray: #f0f0f0;
-
 $second-color: #7872ae;
 $light-bkg: #fcdbec;
-
 h1 {
   font-family: 'Julius Sans One', 'Helvetica Nue', Arial, sans-serif;
   font-weight: normal;
@@ -18,7 +16,7 @@ h1::after {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', serif;
   font-weight: 100;
   font-size: 2em;
   text-decoration: none;
@@ -29,9 +27,7 @@ p {
   grid-template-columns: [sidbar] 25% [main] auto;
   grid-template-areas: 'sidebar main';
   grid-gap: 0px;
-
   height: 100%;
-
   div.grid-sidebar {
     z-index: 1;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
@@ -39,7 +35,6 @@ p {
     background-color: black;
     grid-area: sidebar;
     color: white;
-
     div.logo-container {
       text-align: center;
       img.logo {
@@ -48,12 +43,10 @@ p {
       }
     }
   }
-
   div.grid-main {
     background-color: $white_gray;
     padding-left: 50px;
     grid-area: main;
-
     h1 {
       font-weight: normal;
       letter-spacing: 7px;
