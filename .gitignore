@@ -1,6 +1,7 @@
 # documentation
 doc
 
+.vscode
 .cache
 dist
 
