@@ -2,6 +2,7 @@
 doc
 
 .cache
+dist
 
 # Logs
 logs
