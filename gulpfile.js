@@ -65,3 +65,6 @@ gulp.task('watch', function() {
 
 // Default task - run with command 'gulp'
 gulp.task('default', ['sassdev', 'sassprod', 'babel', 'watch']);
+
+// Task to duild for production - run with command 'gulp build'
+gulp.task('build', ['sassprod', 'babel']);
